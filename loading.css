@@ -60,7 +60,7 @@ header p{
     bottom: 15%;
     width: 100%;
 }
-@keyframes load1 {
+@-webkit-keyframes load1 {
     0%{
         transform: rotate(0deg);
     }
@@ -89,7 +89,7 @@ header p{
     left:5px;
     position: absolute;
 }
-@keyframes load2 {
+@-webkit-keyframes load2 {
     0%{
         transform: scale(0.4);
         opacity: 0.3;
@@ -149,7 +149,7 @@ header p{
     left:8px;
     animation:load2  1s ease -0.84s infinite;
 }
-@keyframes load3 {
+@-webkit-keyframes load3 {
     0%{
         transform:scale(0);
         opacity:0;
@@ -182,7 +182,7 @@ header p{
 #loader3 i:nth-child(3){
     animation:load3 1s linear 0.2s infinite;
 }
-@keyframes load4 {
+@-webkit-keyframes load4 {
     0%{
         transform: scaleY(1);
     }
@@ -218,7 +218,7 @@ header p{
 #loader4 i:nth-child(5){
     animation:load4  1s ease 0.5s infinite;
 }
-@keyframes load5 {
+@-webkit-keyframes load5 {
     0%{
         transform: rotate(0deg) scale(1);
     }
@@ -252,7 +252,7 @@ header p{
     left:15px;
     animation:load5  1s ease-in-out 0.5s infinite reverse;
 }
-@keyframes load6 {
+@-webkit-keyframes load6 {
     0%{
         left:80px;
         top:24px;
@@ -307,7 +307,7 @@ header p{
     animation:load6 2s linear -1.6s infinite;
 }
 
-@keyframes load7 {
+@-webkit-keyframes load7 {
     0%{
         transform: rotateY(0deg);
     }
@@ -341,7 +341,7 @@ header p{
     border:solid 6px #FE6A6A;
     animation:load7 2s ease-in-out 1s infinite;
 }
-@keyframes load8 {
+@-webkit-keyframes load8 {
     0%{
         transform: rotate(0deg);
     }
@@ -366,7 +366,7 @@ header p{
     border-color: rgba(254,106,106,0.6) #FE6A6A;
     animation:load8 1.5s ease-out 0s infinite;
 }
-@keyframes load9 {
+@-webkit-keyframes load9 {
     0%{
         background-color:rgba(254,106,106,0.4);
     }
