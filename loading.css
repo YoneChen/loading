@@ -136,6 +136,46 @@ header p{
     -moz-animation:load1 0.6s infinite;
     animation:load1 0.6s infinite;
 }
+@keyframes load2 {
+    0%{
+        transform: scale(0.4);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+}
+@-webkit-keyframes load2 {
+    0%{
+        transform: scale(0.4);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+}
+@-moz-keyframes load2 {
+    0%{
+        transform: scale(0.4);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+}
+@-o-keyframes load2 {
+    0%{
+        transform: scale(0.4);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+}
 @-webkit-keyframes load2 {
     0%{
         transform: scale(0.4);
@@ -161,6 +201,7 @@ header p{
     left:25px;
     -webkit-animation:load2  1s ease 0s infinite;
     -o-animation:load2  1s ease 0s infinite;
+    -moz-animation:load2  1s ease 0s infinite;
     animation:load2  1s ease 0s infinite;
 }
 #loader2 i:nth-child(2){
