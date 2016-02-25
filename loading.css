@@ -55,7 +55,7 @@ header p{
     display: block;
     margin: 50% auto;
 }
-@keyframes load1 {
+@-webkit-keyframes load1 {
     0%{
         transform: rotate(0deg);
     }
@@ -84,7 +84,7 @@ header p{
     -o-animation:load1 0.6s infinite;
     animation:load1 0.6s infinite;
 }
-@keyframes load2 {
+@-webkit-keyframes load2 {
     0%{
         transform: scale(0.4);
         opacity: 0.3;
@@ -160,7 +160,7 @@ header p{
     -o-animation:load2  1s ease -0.84s infinite;
     animation:load2  1s ease -0.84s infinite;
 }
-@keyframes load3 {
+@-webkit-keyframes load3 {
     0%{
         transform:scale(0);
         opacity:0;
@@ -199,7 +199,7 @@ header p{
     -o-animation:load3 1s linear 0.4s infinite;
     animation:load3 1s linear 0.4s infinite;
 }
-@keyframes load4 {
+@-webkit-keyframes load4 {
     0%{
         transform: scaleY(1);
     }
@@ -214,7 +214,7 @@ header p{
     display: inline-block;
     width:4px;
     height:35px;
-    margin: 0 4px;
+    margin: 8px 4px;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
     border-radius:2px;
@@ -245,7 +245,7 @@ header p{
     -o-animation:load4  1s ease 0.5s infinite;
     animation:load4  1s ease 0.5s infinite;
 }
-@keyframes load5 {
+@-webkit-keyframes load5 {
     0%{
         transform: rotate(0deg) scale(1);
     }
@@ -282,6 +282,65 @@ header p{
     -webkit-animation:load5  1s ease-in-out 0.5s infinite reverse;
     -o-animation:load5  1s ease-in-out 0.5s infinite reverse;
     animation:load5  1s ease-in-out 0.5s infinite reverse;
+}
+@-webkit-keyframes load7 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+   100%{
+        transform: rotateY(180deg);
+    }
+}
+#loader7 i{
+    display: block;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+}
+#loader7 i:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    top:5px;
+    left:5px;
+    border:solid 10px rgba(254,106,106,0.6);
+    animation:load7 2s ease-in-out 0s infinite;
+}
+#loader7 i:nth-child(2) {
+    width: 32px;
+    height: 32px;
+    top:13px;
+    left:13px;
+    border:solid 6px #FE6A6A;
+    animation:load7 2s ease-in-out 1s infinite;
+}
+@-webkit-keyframes load8 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#loader8 i{
+    display: block;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top:5px;
+    left:5px;
+    border:solid 10px #FE6A6A;
+    border-color: rgba(254,106,106,0.6) #FE6A6A;
+    animation:load8 1.5s linear 0s infinite;
 }
 footer{
     margin:25px 0 ;
