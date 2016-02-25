@@ -34,9 +34,13 @@
       <file leaf-file-name="loading.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loading.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.51158303">
-              <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.57192373">
+              <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+              <folding>
+                <element signature="e#1042#1317#0" expanded="false" />
+                <element signature="e#1318#1590#0" expanded="false" />
+                <element signature="e#1591#1858#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,9 +238,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.51158303">
-          <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.57192373">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+          <folding>
+            <element signature="e#1042#1317#0" expanded="false" />
+            <element signature="e#1318#1590#0" expanded="false" />
+            <element signature="e#1591#1858#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
