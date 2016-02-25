@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri Light', sans-serif;
 }
 body{
     background-color: #ddd;
@@ -15,6 +15,7 @@ header{
 header h1{
     font-weight: 200;
     color:#34495e;
+    font-family:'Arial';
 }
 header p{
     color:#2c3e50;
@@ -33,10 +34,11 @@ header p{
     margin-left: 1%;
     margin-right: 1%;
     float: left;
-    background-color: #fff;
     color:#34495e;
     text-align: center;
     position: relative;
+    background-color:#fff;
+    transition: background-color 0.7s linear ;
 }
 .row .box:hover{
     background-color:#2c3e50;
@@ -51,9 +53,12 @@ header p{
     margin: 0 auto;
 }
 .row .box  p{
-    font-size:large;
+    font-size:24px;
+    font-weight:lighter;
     display: block;
-    margin: 50% auto;
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
 }
 @keyframes load1 {
     0%{
@@ -74,13 +79,15 @@ header p{
 }
 #loader1 i{
     display: block;
-    width:100%;
-    height:100%;
+    width:60px;
+    height:60px;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     border-radius:50%;
-    background: linear-gradient(transparent  ,transparent 70% ,#00aadd 70%, #0099aa 100%);
+    background: linear-gradient(transparent  ,transparent 70% ,#00aadd 70%);
     animation:load1 0.6s infinite;
+    left:5px;
+    position: absolute;
 }
 @keyframes load2 {
     0%{
@@ -245,6 +252,61 @@ header p{
     left:15px;
     animation:load5  1s ease-in-out 0.5s infinite reverse;
 }
+@keyframes load6 {
+    0%{
+        left:80px;
+        top:24px;
+    }
+    80%{
+        left:-20px;
+        top:24px;
+    }
+    85%{
+        left:-20px;
+        top:4px;
+        width:15px;
+        height:15px;
+    }
+    90%{
+        width:30px;
+        height:15px;
+    }
+    95%{
+        left:80px;
+        top:4px;
+        width:15px;
+        height:15px;
+    }
+    100%{
+    left:80px;
+    top:24px;
+}
+}
+#loader6 i{
+    display: block;
+    width:15px;
+    height: 15px;
+    top:24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #1dd1ae;
+}
+#loader6 i:nth-child(1){
+    animation:load6 2s linear 0s infinite;
+}
+#loader6 i:nth-child(2){
+    animation:load6 2s linear -0.4s infinite;
+}
+#loader6 i:nth-child(3){
+    animation:load6 2s linear -0.8s infinite;
+}
+#loader6 i:nth-child(4){
+    animation:load6 2s linear -1.2s infinite;
+}
+#loader6 i:nth-child(5){
+    animation:load6 2s linear -1.6s infinite;
+}
+
 @keyframes load7 {
     0%{
         transform: rotateY(0deg);
@@ -302,7 +364,74 @@ header p{
     left:5px;
     border:solid 10px #FE6A6A;
     border-color: rgba(254,106,106,0.6) #FE6A6A;
-    animation:load8 1.5s linear 0s infinite;
+    animation:load8 1.5s ease-out 0s infinite;
+}
+@keyframes load9 {
+    0%{
+        background-color:rgba(254,106,106,0.4);
+    }
+    15%{
+        background-color: rgba(254,106,106,1);
+    }
+    100%{
+        background-color:rgba(254,106,106,0.4);
+    }
+}
+#loader9 i{
+    display: block;
+    width:12px;
+    height:12px;
+    top:24px;
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    border-radius:20%;
+    background-color: rgba(254,106,106,0.6);
+    position: absolute;
+}
+#loader9 i:nth-child(1) {
+    top:20px;
+    left:12px;
+    animation:load9 2s linear 0s infinite;
+}
+#loader9 i:nth-child(2) {
+    top:20px;
+    left:27px;
+    animation:load9 2s linear 0.2s infinite;
+}
+#loader9 i:nth-child(3) {
+    top:20px;
+    left:42px;
+    animation:load9 2s linear 0.4s infinite;
+}
+#loader9 i:nth-child(4) {
+    top:35px;
+    left:12px;
+    animation:load9 2s linear 1s infinite;
+}
+#loader9 i:nth-child(5) {
+    top:35px;
+    left:27px;
+    animation:load9 2s linear 0.8s infinite;
+}
+#loader9 i:nth-child(6) {
+    top:35px;
+    left:42px;
+    animation:load9 2s linear 0.6s infinite;
+}
+#loader9 i:nth-child(7) {
+    top:50px;
+    left:12px;
+    animation:load9 2s linear 1.2s infinite;
+}
+#loader9 i:nth-child(8) {
+    top:50px;
+    left:27px;
+    animation:load9 2s linear 1.4s infinite;
+}
+#loader9 i:nth-child(9) {
+    top:50px;
+    left:42px;
+    animation:load9 2s linear 1.6s infinite;
 }
 footer{
     margin:25px 0 ;
