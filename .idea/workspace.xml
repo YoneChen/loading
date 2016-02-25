@@ -34,12 +34,13 @@
       <file leaf-file-name="loading.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loading.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57192373">
-              <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.119584054">
+              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
               <folding>
                 <element signature="e#1042#1317#0" expanded="false" />
                 <element signature="e#1318#1590#0" expanded="false" />
-                <element signature="e#1591#1858#0" expanded="false" />
+                <element signature="e#1591#1862#0" expanded="false" />
+                <element signature="e#1863#2130#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -238,12 +239,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57192373">
-          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.119584054">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
             <element signature="e#1042#1317#0" expanded="false" />
             <element signature="e#1318#1590#0" expanded="false" />
-            <element signature="e#1591#1858#0" expanded="false" />
+            <element signature="e#1591#1862#0" expanded="false" />
+            <element signature="e#1863#2130#0" expanded="false" />
           </folding>
         </state>
       </provider>
