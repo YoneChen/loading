@@ -316,7 +316,7 @@ header p{
     top:15px;
     left:15px;
     animation:load5  1s ease-in-out 0.5s infinite reverse;
-    -webkit-animation:load5  1s ease-in-out 0.5s infinite reverse;
+    -webkit-animation:load5  1s ease-in-out 0.5s infinite;
 }
 @-webkit-keyframes load6 {
     0%{
