@@ -34,14 +34,14 @@
       <file leaf-file-name="loading.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loading.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43154246">
-              <caret line="309" column="30" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6291161">
+              <caret line="318" column="57" selection-start-line="318" selection-start-column="57" selection-end-line="318" selection-end-column="57" />
               <folding>
                 <element signature="e#1929#2080#0" expanded="false" />
                 <element signature="e#3721#3899#0" expanded="false" />
                 <element signature="e#4671#4828#0" expanded="false" />
                 <element signature="e#5881#6078#0" expanded="false" />
-                <element signature="e#7105#7523#0" expanded="false" />
+                <element signature="e#7097#7515#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -252,7 +252,7 @@
             <element signature="e#3721#3899#0" expanded="false" />
             <element signature="e#4671#4828#0" expanded="false" />
             <element signature="e#5881#6078#0" expanded="false" />
-            <element signature="e#7105#7523#0" expanded="false" />
+            <element signature="e#7097#7515#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -267,14 +267,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loading.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43154246">
-          <caret line="309" column="30" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6291161">
+          <caret line="318" column="57" selection-start-line="318" selection-start-column="57" selection-end-line="318" selection-end-column="57" />
           <folding>
             <element signature="e#1929#2080#0" expanded="false" />
             <element signature="e#3721#3899#0" expanded="false" />
             <element signature="e#4671#4828#0" expanded="false" />
             <element signature="e#5881#6078#0" expanded="false" />
-            <element signature="e#7105#7523#0" expanded="false" />
+            <element signature="e#7097#7515#0" expanded="false" />
           </folding>
         </state>
       </provider>
