@@ -63,36 +63,18 @@ header p{
     width: 100%;
 }
 @-webkit-keyframes load1 {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
 @-moz-keyframes load1 {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
@@ -114,19 +96,10 @@ header p{
     }
 }
 @keyframes load1 {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
@@ -681,24 +654,18 @@ header p{
     animation:load7 2s ease-in-out 1s infinite;
 }
 @-webkit-keyframes load8 {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
 @-moz-keyframes load8 {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
@@ -714,13 +681,10 @@ header p{
     }
 }
 @keyframes load8 {
-    0%{
+   from{
         transform: rotate(0deg);
     }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
+    to{
         transform: rotate(360deg);
     }
 }
@@ -736,10 +700,10 @@ header p{
     left:5px;
     border:solid 10px #FE6A6A;
     border-color: rgba(254,106,106,0.6) #FE6A6A;
-    animation:load8 1.5s ease-out 0s infinite;
-    -webkit-animation:load8 1.5s ease-out 0s infinite;
-    -moz-animation:load8 1.5s ease-out 0s infinite;
-    -ms-animation:load8 1.5s ease-out 0s infinite;
+    animation:load8 1s ease-out 0s infinite;
+    -webkit-animation:load8 1s ease-out 0s infinite;
+    -moz-animation:load8 1s ease-out 0s infinite;
+    -ms-animation:load8 1s ease-out 0s infinite;
 }
 @-webkit-keyframes load9 {
     0%{
