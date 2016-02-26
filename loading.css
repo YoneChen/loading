@@ -64,35 +64,10 @@ header p{
 }
 @-webkit-keyframes load1 {
     from{
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     to{
-        transform: rotate(360deg);
-    }
-}
-@-moz-keyframes load1 {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-@-ms-keyframes load1 {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 }
 @keyframes load1 {
@@ -113,38 +88,16 @@ header p{
     background: linear-gradient(transparent  ,transparent 70% ,#00aadd 70%);
     animation:load1 0.6s infinite;
     -webkit-animation:load1 0.6s infinite;
-    -moz-animation:load1 0.6s infinite;
-    -ms-animation:load1 0.6s infinite;
     left:5px;
     position: absolute;
 }
 @-webkit-keyframes load2 {
     0%{
-        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
         opacity: 0.3;
     }
     100%{
-        transform: scale(1);
-        opacity:1;
-    }
-}
-@-moz-keyframes load2 {
-    0%{
-        transform: scale(0.4);
-        opacity: 0.3;
-    }
-    100%{
-        transform: scale(1);
-        opacity:1;
-    }
-}
-@-ms-keyframes load2 {
-    0%{
-        transform: scale(0.4);
-        opacity: 0.3;
-    }
-    100%{
-        transform: scale(1);
+        -webkit-transform: scale(1);
         opacity:1;
     }
 }
@@ -173,8 +126,6 @@ header p{
     left:25px;
     animation:load2  1s ease 0s infinite;
     -webkit-animation:load2  1s ease 0s infinite;
-    -moz-animation:load2  1s ease 0s infinite;
-    -ms-animation:load2  1s ease 0s infinite;
 
 }
 #loader2 i:nth-child(2){
@@ -182,93 +133,53 @@ header p{
     left:42px;
     animation:load2  1s ease -0.12s infinite;
     -webkit-animation:load2  1s ease -0.12s infinite;
-    -moz-animation:load2  1s ease -0.12s infinite;
-    -ms-animation:load2  1s ease -0.12s infinite;
 }
 #loader2 i:nth-child(3){
     top:25px;
     left:50px;
     animation:load2  1s ease -0.24s infinite;
     -webkit-animation:load2  1s ease -0.24s infinite;
-    -moz-animation:load2  1s ease -0.24s infinite;
-    -ms-animation:load2  1s ease -0.24s infinite;
 }
 #loader2 i:nth-child(4){
     top:8px;
     left:42px;
     animation:load2  1s ease -0.36s infinite;
     -webkit-animation:load2  1s ease -0.36s infinite;
-    -moz-animation:load2  1s ease -0.36s infinite;
-    -ms-animation:load2  1s ease -0.36s infinite;
 }
 #loader2 i:nth-child(5){
     top:0px;
     left:25px;
     animation:load2  1s ease -0.48s infinite;
     -webkit-animation:load2  1s ease -0.48s infinite;
-    -moz-animation:load2  1s ease -0.48s infinite;
-    -ms-animation:load2  1s ease -0.48s infinite;
 }
 #loader2 i:nth-child(6){
     top:8px;
     left:8px;
     animation:load2  1s ease -0.6s infinite;
     -webkit-animation:load2  1s ease -0.6s infinite;
-    -moz-animation:load2  1s ease -0.6s infinite;
-    -ms-animation:load2  1s ease -0.6s infinite;
 }
 #loader2 i:nth-child(7){
     top:25px;
     left:0px;
     animation:load2  1s ease -0.72s infinite;
     -webkit-animation:load2  1s ease -0.72s infinite;
-    -moz-animation:load2  1s ease -0.72s infinite;
-    -ms-animation:load2  1s ease -0.72s infinite;
 }
 #loader2 i:nth-child(8){
     top:42px;
     left:8px;
     animation:load2  1s ease -0.84s infinite;
     -webkit-animation:load2  1s ease -0.84s infinite;
-    -moz-animation:load2  1s ease -0.84s infinite;
-    -ms-animation:load2  1s ease -0.84s infinite;
 }
 @-webkit-keyframes load3 {
     0%{
-        transform:scale(0);
+        -webkit-transform:scale(0);
         opacity:0;
     }
     5%{
         opacity:1;
     }
     100%{
-        transform: scale(1);
-        opacity:0;
-    }
-}
-@-moz-keyframes load3 {
-    0%{
-        transform:scale(0);
-        opacity:0;
-    }
-    5%{
-        opacity:1;
-    }
-    100%{
-        transform: scale(1);
-        opacity:0;
-    }
-}
-@-ms-keyframes load3 {
-    0%{
-        transform:scale(0);
-        opacity:0;
-    }
-    5%{
-        opacity:1;
-    }
-    100%{
-        transform: scale(1);
+        -webkit-transform: scale(1);
         opacity:0;
     }
 }
@@ -298,44 +209,25 @@ header p{
 }
 #loader3 i:nth-child(1){
     animation:load3 1s linear 0s infinite;
+    -webkit-animation:load3 1s linear 0s infinite;
 }
 #loader3 i:nth-child(2){
-    animation:load3 1s linear 0.2s infinite;
+    animation:load3 1s linear 0s infinite;
+    -webkit-animation:load3 1s linear 0.2s infinite;
 }
 #loader3 i:nth-child(3){
-    animation:load3 1s linear 0.2s infinite;
+    animation:load3 1s linear 0s infinite;
+    -webkit-animation:load3 1s linear 0.2s infinite;
 }
 @-webkit-keyframes load4 {
     0%{
-        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
     }
     50%{
-        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
     }
     100%{
-        transform: scaleY(1);
-    }
-}
-@-moz-keyframes load4 {
-    0%{
-        transform: scaleY(1);
-    }
-    50%{
-        transform: scaleY(0.4);
-    }
-    100%{
-        transform: scaleY(1);
-    }
-}
-@-ms-keyframes load4 {
-    0%{
-        transform: scaleY(1);
-    }
-    50%{
-        transform: scaleY(0.4);
-    }
-    100%{
-        transform: scaleY(1);
+        -webkit-transform: scaleY(1);
     }
 }
 @keyframes load4 {
@@ -361,50 +253,33 @@ header p{
 }
 #loader4 i:nth-child(1){
     animation:load4  1s ease 0.1s infinite;
+    -webkit-animation:load4  1s ease 0.1s infinite;
 }
 #loader4 i:nth-child(2){
     animation:load4  1s ease 0.2s infinite;
+    -webkit-animation:load4  1s ease 0.2s infinite;
 }
 #loader4 i:nth-child(3){
     animation:load4  1s ease 0.3s infinite;
+    -webkit-animation:load4  1s ease 0.3s infinite;
 }
 #loader4 i:nth-child(4){
     animation:load4  1s ease 0.4s infinite;
+    -webkit-animation:load4  1s ease 0.4s infinite;
 }
 #loader4 i:nth-child(5){
     animation:load4  1s ease 0.5s infinite;
+    -webkit-animation:load4  1s ease 0.5s infinite;
 }
 @-webkit-keyframes load5 {
     0%{
-        transform: rotate(0deg) scale(1);
+        -webkit-transform: rotate(0deg) scale(1);
     }
     50%{
-        transform: rotate(180deg) scale(0.6);
+        -webkit-transform: rotate(180deg) scale(0.6);
     }
     100%{
-        transform: rotate(360deg) scale(1);
-    }
-}
-@-moz-keyframes load5 {
-    0%{
-        transform: rotate(0deg) scale(1);
-    }
-    50%{
-        transform: rotate(180deg) scale(0.6);
-    }
-    100%{
-        transform: rotate(360deg) scale(1);
-    }
-}
-@-ms-keyframes load5 {
-    0%{
-        transform: rotate(0deg) scale(1);
-    }
-    50%{
-        transform: rotate(180deg) scale(0.6);
-    }
-    100%{
-        transform: rotate(360deg) scale(1);
+        -webkit-transform: rotate(360deg) scale(1);
     }
 }
 @keyframes load5 {
@@ -432,13 +307,15 @@ header p{
     height:50px;
     top:5px;
     left:5px;
-    animation:load5  1s ease-in-out 0s infinite;
+    -webkit-animation:load5  1s ease-in-out 0s infinite;
+    -webkit-animation:load5  1s ease-in-out 0s infinite;
 }
 #loader5 i:nth-child(2){
     width: 30px;
     height:30px;
     top:15px;
     left:15px;
+    animation:load5  1s ease-in-out 0.5s infinite reverse;
     animation:load5  1s ease-in-out 0.5s infinite reverse;
 }
 @-webkit-keyframes load6 {
@@ -607,7 +484,6 @@ header p{
     border:solid 10px #FE6A6A;
     border-color: rgba(254,106,106,0.6) #FE6A6A;
     animation:load8 1s ease-out 0s infinite;
-    -moz-animation:load8 1s ease-out 0s infinite;
     -webkit-animation:load8 1s ease-out 0s infinite;
 }
 @-webkit-keyframes load9 {
@@ -647,46 +523,55 @@ header p{
     top:20px;
     left:12px;
     animation:load9 2s linear 0s infinite;
+    -webkit-animation:load9 2s linear 0s infinite;
 }
 #loader9 i:nth-child(2) {
     top:20px;
     left:27px;
     animation:load9 2s linear 0.2s infinite;
+    -webkit-animation:load9 2s linear 0.2s infinite;
 }
 #loader9 i:nth-child(3) {
     top:20px;
     left:42px;
     animation:load9 2s linear 0.4s infinite;
+    -webkit-animation:load9 2s linear 0.4s infinite;
 }
 #loader9 i:nth-child(4) {
     top:35px;
     left:12px;
     animation:load9 2s linear 1s infinite;
+    -webkit-animation:load9 2s linear 1s infinite;
 }
 #loader9 i:nth-child(5) {
     top:35px;
     left:27px;
     animation:load9 2s linear 0.8s infinite;
+    -webkit-animation:load9 2s linear 0.8s infinite;
 }
 #loader9 i:nth-child(6) {
     top:35px;
     left:42px;
     animation:load9 2s linear 0.6s infinite;
+    -webkit-animation:load9 2s linear 0.6s infinite;
 }
 #loader9 i:nth-child(7) {
     top:50px;
     left:12px;
     animation:load9 2s linear 1.2s infinite;
+    -webkit-animation:load9 2s linear 1.2s infinite;
 }
 #loader9 i:nth-child(8) {
     top:50px;
     left:27px;
     animation:load9 2s linear 1.4s infinite;
+    -webkit-animation:load9 2s linear 1.4s infinite;
 }
 #loader9 i:nth-child(9) {
     top:50px;
     left:42px;
     animation:load9 2s linear 1.6s infinite;
+    -webkit-animation:load9 2s linear 1.6s infinite;
 }
 footer{
     margin:25px 0 ;
