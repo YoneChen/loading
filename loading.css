@@ -653,8 +653,16 @@ header p{
     border:solid 6px #FE6A6A;
     animation:load7 2s ease-in-out 1s infinite;
 }
-@-webkit-keyframes load8 {
+@-ms-keyframes load8 {
     from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes load8 {
+   from{
         transform: rotate(0deg);
     }
     to{
@@ -669,19 +677,8 @@ header p{
         transform: rotate(360deg);
     }
 }
-@-ms-keyframes load8 {
-    0%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes load8 {
-   from{
+@-webkit-keyframes load8 {
+    from{
         transform: rotate(0deg);
     }
     to{
@@ -701,9 +698,8 @@ header p{
     border:solid 10px #FE6A6A;
     border-color: rgba(254,106,106,0.6) #FE6A6A;
     animation:load8 1s ease-out 0s infinite;
-    -webkit-animation:load8 1s ease-out 0s infinite;
     -moz-animation:load8 1s ease-out 0s infinite;
-    -ms-animation:load8 1s ease-out 0s infinite;
+    -webkit-animation:load8 1s ease-out 0s infinite;
 }
 @-webkit-keyframes load9 {
     0%{
