@@ -308,7 +308,7 @@ header p{
     top:5px;
     left:5px;
     animation:load5  1s ease-in-out 0s infinite;
-    -webkit-animation:load5  1s ease-in-out 0.5s infinite reverse;
+    -webkit-animation:load5  1s ease-in-out 0s infinite;
 }
 #loader5 i:nth-child(2){
     width: 30px;
