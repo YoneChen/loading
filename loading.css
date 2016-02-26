@@ -653,14 +653,6 @@ header p{
     border:solid 6px #FE6A6A;
     animation:load7 2s ease-in-out 1s infinite;
 }
-@-ms-keyframes load8 {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
 @keyframes load8 {
    from{
         transform: rotate(0deg);
@@ -669,20 +661,12 @@ header p{
         transform: rotate(360deg);
     }
 }
-@-moz-keyframes load8 {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
 @-webkit-keyframes load8 {
     from{
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
     to{
-        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 }
 #loader8 i{
