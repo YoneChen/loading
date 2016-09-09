@@ -580,13 +580,13 @@ footer{
 }
 @keyframes roll2{
     0%{
-        transform: translateY(75px) rotateY(30deg);
+        transform: translateY(20px) rotateY(30deg);
     }
     50%{
-        transform: translateY(175px) rotateY(210deg);
+        transform: translateY(75px) rotateY(210deg);
     }
     100%{
-        transform: translateY(75px) rotateY(390deg);
+        transform: translateY(20px) rotateY(390deg);
     }
 }
 @-webkit-keyframes roll{
@@ -602,35 +602,35 @@ footer{
 }
 @-webkit-keyframes roll2{
     0%{
-        transform: translateY(75px) rotateY(30deg);
+        transform: translateY(20px) rotateY(30deg);
     }
     50%{
-        transform: translateY(175px) rotateY(210deg);
+        transform: translateY(75px) rotateY(210deg);
     }
     100%{
-        transform: translateY(75px) rotateY(390deg);
+        transform: translateY(20px) rotateY(390deg);
     }
 }
 @keyframes slide{
     0%{
-        transform: translateZ(150px);
+        transform: translateZ(100px);
     }
     50%{
-        transform: translateZ(-150px);
+        transform: translateZ(-100px);
     }
     100%{
-        transform: translateZ(150px);
+        transform: translateZ(100px);
     }
 }
 @-webkit-keyframes slide{
     0%{
-        transform: translateZ(150px);
+        transform: translateZ(100px);
     }
     50%{
-        transform: translateZ(-150px);
+        transform: translateZ(-100px);
     }
     100%{
-        transform: translateZ(150px);
+        transform: translateZ(100px);
     }
 }
 .stage {
@@ -640,12 +640,12 @@ footer{
 }
 .tangle{
     transform-style: preserve-3d;
-    width: 160px;
-    height: 138.5px;
+    width: 80px;
+    height: 69px;
     margin: auto;
     animation: roll2 2s linear infinite reverse;
     -webkit-animation: roll2 2s linear infinite reverse;
-    transform: translateY(70px)
+    transform: translateY(20px)
 }
 .tangle *  
 {  
@@ -653,42 +653,42 @@ footer{
     position: absolute;  
     width:0;
     height:0;
-    border-width:0 80px 135px;
+    border-width:0 40px 67px;
     border-style:solid;
 } 
        .tangle .left{
            transform-origin:center bottom;
-           transform:rotateY(90deg) translateZ(80px) rotateX(36deg);
+           transform:rotateY(90deg) translateZ(40px) rotateX(36deg);
     border-color:transparent transparent rgba(72, 201, 176, 0.7);  
        }
        .tangle .font{
            transform-origin:center bottom;
-           transform: translateZ(80px) rotateX(36deg);
+           transform: translateZ(40px) rotateX(36deg);
     border-color:transparent transparent rgba(72, 201, 176, 0.5);  
        }
        .tangle .right{
            transform-origin:center bottom;
-           transform:rotateY(-90deg) translateZ(80px) rotateX(36deg);
+           transform:rotateY(-90deg) translateZ(40px) rotateX(36deg);
     border-color:transparent transparent rgba(72, 201, 176, 0.2);  
        }
        .tangle .back{
            transform-origin:center bottom;
-           transform: translateZ(-80px) rotateX(-36deg);
+           transform: translateZ(-40px) rotateX(-36deg);
     border-color:transparent transparent rgba(72, 201, 176, 0.5);  
        }
        .tangle .bottom{
             box-sizing: border-box;
     position: absolute;  
-    width:160px;
-    height:160px;  
-    transform: rotateX(-90deg) translateZ(53.3px);
+    width:80px;
+    height:80px;  
+    transform: rotateX(-90deg) translateZ(26px);
     background: rgba(72, 201, 176, 0.5);
     border-style: none;
        }
 .cube {
     transform-style: preserve-3d;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: auto;
     transform:  rotateX(-30deg) rotateY(30deg);
     animation: roll 8s linear infinite;
@@ -707,22 +707,22 @@ footer{
   
        }  
 .cube > .font{
-    transform: translateZ(150px)
+    transform: translateZ(100px)
 }
 .cube > .back{
-    transform: rotateX(180deg) translateZ(150px)
+    transform: rotateX(180deg) translateZ(100px)
 }
 .cube > .top{
-    transform: rotateX(90deg) translateZ(150px)
+    transform: rotateX(90deg) translateZ(100px)
 }
 .cube > .bottom{
-    transform: rotateX(-90deg) translateZ(150px)
+    transform: rotateX(-90deg) translateZ(100px)
 }
 .cube > .left{
-    transform: rotateY(90deg) translateZ(150px)
+    transform: rotateY(90deg) translateZ(100px)
 }
 .cube > .right{
-    transform: rotateY(-90deg) translateZ(150px)
+    transform: rotateY(-90deg) translateZ(100px)
 }
 .cube > .side{
                background: rgba(72, 201, 176, 0.5);
@@ -732,6 +732,6 @@ footer{
            height: 100%;  
            border: 2px solid rgba(72, 201, 176, 0.5);  
            box-shadow: 0 0 50px rgba(72, 201, 176, 1);  
-    transform: translateZ(150px);
+    transform: translateZ(100px);
     animation: slide 6s ease-in-out infinite;
 }
