@@ -22,7 +22,7 @@ header p{
 }
 .box{
     display: block;
-    width: 450px;
+    width: 80%;
     height:240px;
     margin:24px auto;
     color:#34495e;
@@ -613,24 +613,24 @@ footer{
 }
 @keyframes slide{
     0%{
-        transform: translateZ(200px);
+        transform: translateZ(150px);
     }
     50%{
-        transform: translateZ(-200px);
+        transform: translateZ(-150px);
     }
     100%{
-        transform: translateZ(200px);
+        transform: translateZ(150px);
     }
 }
 @-webkit-keyframes slide{
     0%{
-        transform: translateZ(200px);
+        transform: translateZ(150px);
     }
     50%{
-        transform: translateZ(-200px);
+        transform: translateZ(-150px);
     }
     100%{
-        transform: translateZ(200px);
+        transform: translateZ(150px);
     }
 }
 .stage {
@@ -645,7 +645,7 @@ footer{
     margin: auto;
     animation: roll2 2s linear infinite reverse;
     -webkit-animation: roll2 2s linear infinite reverse;
-    transform: translateY(100px)
+    transform: translateY(70px)
 }
 .tangle *  
 {  
@@ -687,8 +687,8 @@ footer{
        }
 .cube {
     transform-style: preserve-3d;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: auto;
     transform:  rotateX(-30deg) rotateY(30deg);
     animation: roll 8s linear infinite;
@@ -707,22 +707,22 @@ footer{
   
        }  
 .cube > .font{
-    transform: translateZ(200px)
+    transform: translateZ(150px)
 }
 .cube > .back{
-    transform: rotateX(180deg) translateZ(200px)
+    transform: rotateX(180deg) translateZ(150px)
 }
 .cube > .top{
-    transform: rotateX(90deg) translateZ(200px)
+    transform: rotateX(90deg) translateZ(150px)
 }
 .cube > .bottom{
-    transform: rotateX(-90deg) translateZ(200px)
+    transform: rotateX(-90deg) translateZ(150px)
 }
 .cube > .left{
-    transform: rotateY(90deg) translateZ(200px)
+    transform: rotateY(90deg) translateZ(150px)
 }
 .cube > .right{
-    transform: rotateY(-90deg) translateZ(200px)
+    transform: rotateY(-90deg) translateZ(150px)
 }
 .cube > .side{
                background: rgba(72, 201, 176, 0.5);
@@ -732,6 +732,6 @@ footer{
            height: 100%;  
            border: 2px solid rgba(72, 201, 176, 0.5);  
            box-shadow: 0 0 50px rgba(72, 201, 176, 1);  
-    transform: translateZ(200px);
+    transform: translateZ(150px);
     animation: slide 6s ease-in-out infinite;
 }
